@@ -1,5 +1,8 @@
 # Scalable Field-Aligned Reparameterization for Trimmed NURBS
 
+## Overview
+ScaleUntrim is an open-source software package to reconstruct trimmed CAD models as a watertight spline representation (i.e., multi-patch NURBS). The copyright of the code belongs to Prof. Xiaodong Wei's group at Shanghai Jiao Tong University, China.
+
 ## Software
 
 The software supports cmake build for Linux/Mac/Windows systems, which converts a trimmed CAD modal  `(.stp/.igs)` into an untrimmed NURBS `(.step)`.
@@ -52,5 +55,7 @@ fit_tolerance: 1.e-2
 
 ## Authors
 
-- <u>Xiaodong Wei</u>
 - <u>Zheng Wei</u>
+- <u>Haoyu Su</u>
+- <u>Shizhou Luo</u>
+- <u>Xiaodong Wei</u>
